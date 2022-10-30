@@ -1,0 +1,73 @@
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #news .card{
+      width: 300px;
+      margin: 20px 0px 0px 10px;
+    }
+    #news .card .date .day{
+      font-size: 20px;
+    }
+    #news .card .date .month, .card .date .year{
+      font-size: 11px;
+    }
+    #news .card .title a{
+      font-size: 22px;
+    }
+    #news .card .text{
+      font-size: 14px;
+    }
+}
+
+/* ========== Smartphones Mobiles Portrait Ends ========== */
+
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  #news .card{
+    margin-left: 70px;
+  }
+
+}
+
+/* ========== Tablets, Mobiles Landscape Ends ========== */
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media(min-width: 768px) and (max-width: 991px){
+  #news .card{
+    width: 285px;
+    margin: 50px 37px 0px 37px;
+  }
+  #news .card.last-child{
+    margin-bottom: 50px;
+  }
+  #news .card .title a{
+    font-size: 21px;
+  }
+
+}
+
+ /* ========== Tablets, Ipads landscape Ends ========== */
+
+ /*
+  ##Device = Desktops 27 Inch
+  ##Screen = 1920px to higher resolution desktops
+*/
+
+@media (min-width: 1920px){
+
+}
